@@ -1,0 +1,6 @@
+Home network notes
+The router is a TP-Link Archer AX55 at 192.168.1.1.
+Guest WiFi runs on VLAN 30, subnet 192.168.30.0/24, and has no access to the main LAN.
+The NAS is named "vault" and has the static address 192.168.1.50.
+The 3D printer sits at 192.168.1.77 and is only reachable from the main LAN.
+WiFi credentials get rotated every 6 months. The last rotation was in March.

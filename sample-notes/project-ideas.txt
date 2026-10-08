@@ -1,0 +1,6 @@
+Project ideas
+Wordle clone: planned for November, React + Vite, deployed to Vercel.
+Habit tracker: store data in localStorage, no backend needed.
+Simon Says: needs sound effects, the hard part is the timing of the light sequence.
+Local LLM project: ask_my_notes.py, a RAG script using Ollama with llama3.2 and nomic-embed-text.
+Benchmark result so far: llama3.2 3B runs at 31 tokens/s, mistral 7B at 7 tokens/s on the GTX 1650.
