@@ -1,0 +1,21 @@
+[
+  {"q": "What is the NAS called and what is its IP?",
+   "must_include": ["vault", "192.168.1.50"]},
+  {"q": "What accuracy did my cricket classifier reach?",
+   "must_include": ["94"]},
+  {"q": "Why did my model fail on grass photos?",
+   "must_include": ["white"],
+   "must_not_include": ["cropping", "rotation"]},
+  {"q": "What does the guest WiFi use?",
+   "must_include": ["30"]},
+  {"q": "When am I building the Wordle clone?",
+   "must_include": ["november"]},
+  {"q": "What is the IP address of the 3D printer?",
+   "must_include": ["192.168.1.77"]},
+  {"q": "Which project uses Vercel, and what speed did llama3.2 get?",
+   "must_include": ["wordle", "31"]},
+  {"q": "What is my favourite cricket team?",
+   "refusal_expected": true},
+  {"q": "What is the WiFi password?",
+   "refusal_expected": true}
+]

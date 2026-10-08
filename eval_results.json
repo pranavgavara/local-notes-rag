@@ -1,0 +1,110 @@
+[
+  {
+    "model": "llama3.2",
+    "question": "What is the NAS called and what is its IP?",
+    "pass": true,
+    "answer": "[home-network.txt]\n\nThe NAS is named \"vault\" and has the static address 192.168.1.50."
+  },
+  {
+    "model": "llama3.2",
+    "question": "What accuracy did my cricket classifier reach?",
+    "pass": true,
+    "answer": "The accuracy of the cricket classifier was 94%. (fastai-notes.md)"
+  },
+  {
+    "model": "llama3.2",
+    "question": "Why did my model fail on grass photos?",
+    "pass": true,
+    "answer": "The issue was that the model was trained on photos with white backgrounds only, so it failed on photos with non-white backgrounds, such as grass. Adding more varied photos and using data augmentation should have helped to improve the model's performance."
+  },
+  {
+    "model": "llama3.2",
+    "question": "What does the guest WiFi use?",
+    "pass": true,
+    "answer": "[home-network.txt]\n\nGuest WiFi runs on VLAN 30, subnet 192.168.30.0/24, and has no access to the main LAN."
+  },
+  {
+    "model": "llama3.2",
+    "question": "When am I building the Wordle clone?",
+    "pass": true,
+    "answer": "[project-ideas.txt]\n\nYou are building the Wordle clone, planned for November, using React + Vite and deployed to Vercel."
+  },
+  {
+    "model": "llama3.2",
+    "question": "What is the IP address of the 3D printer?",
+    "pass": true,
+    "answer": "According to [home-network.txt], the 3D printer sits at 192.168.1.77."
+  },
+  {
+    "model": "llama3.2",
+    "question": "Which project uses Vercel, and what speed did llama3.2 get?",
+    "pass": true,
+    "answer": "[project-ideas.txt]\n\nThe Wordle clone is planned to be deployed on Vercel.\n\n[project-ideas.txt]\n\nBenchmark result so far: llama3.2 3B runs at 31 tokens/s.\n\n[project-ideas.txt]"
+  },
+  {
+    "model": "llama3.2",
+    "question": "What is my favourite cricket team?",
+    "pass": true,
+    "answer": "No answer."
+  },
+  {
+    "model": "llama3.2",
+    "question": "What is the WiFi password?",
+    "pass": true,
+    "answer": "There is no information about the WiFi password in the provided notes. (home-network.txt)"
+  },
+  {
+    "model": "mistral",
+    "question": "What is the NAS called and what is its IP?",
+    "pass": true,
+    "answer": " The NAS is called \"vault\" and its IP is 192.168.1.50, as stated in the home-network.txt file."
+  },
+  {
+    "model": "mistral",
+    "question": "What accuracy did my cricket classifier reach?",
+    "pass": true,
+    "answer": " The cricket classifier reached 94% accuracy. (Source: fastai-notes.md)"
+  },
+  {
+    "model": "mistral",
+    "question": "Why did my model fail on grass photos?",
+    "pass": true,
+    "answer": " The model failed on grass photos because it was trained only on photos with white backgrounds (source: fastai-notes.md)."
+  },
+  {
+    "model": "mistral",
+    "question": "What does the guest WiFi use?",
+    "pass": true,
+    "answer": " The guest WiFi uses subnet 192.168.30.0/24 from the home network notes file."
+  },
+  {
+    "model": "mistral",
+    "question": "When am I building the Wordle clone?",
+    "pass": true,
+    "answer": " According to the project ideas file, the Wordle clone is planned for November. [project-ideas.txt]"
+  },
+  {
+    "model": "mistral",
+    "question": "What is the IP address of the 3D printer?",
+    "pass": true,
+    "answer": " The IP address of the 3D printer is 192.168.1.77, according to the home-network.txt notes."
+  },
+  {
+    "model": "mistral",
+    "question": "Which project uses Vercel, and what speed did llama3.2 get?",
+    "pass": true,
+    "answer": " The Wordle clone project uses Vercel, and llama3.2 runs at 31 tokens/s. (Source: project-ideas.txt)"
+  },
+  {
+    "model": "mistral",
+    "question": "What is my favourite cricket team?",
+    "pass": true,
+    "answer": " The notes do not provide information about a favourite cricket team."
+  },
+  {
+    "model": "mistral",
+    "question": "What is the WiFi password?",
+    "pass": true,
+    "answer": " The notes do not provide the WiFi password."
+  }
+]

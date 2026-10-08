@@ -93,3 +93,10 @@ is in two sentences"). Single runs, so treat them as rough numbers.
 | `ask_my_notes.py` | The whole pipeline (about 100 lines) |
 | `sample-notes/` | Fictional example notes for testing |
 | `requirements.txt` | Python dependencies |
+
+
+# Evaluation
+ | Model | Score | Total time |
+|---|---|---|
+| llama3.2 | 9/9 | 67s |
+| mistral | 9/9 | 113s |
