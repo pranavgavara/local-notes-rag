@@ -1,0 +1,13 @@
+[
+  {"q": "What private IPv4 address ranges are defined?", "must_include": ["10.0.0.0", "172.16.0.0", "192.168.0.0"]},
+  {"q": "What are the BGP message types?", "must_include": ["open", "update", "notification", "keepalive"]},
+  {"q": "As a fraction of the lease duration, what is the default value of DHCP timer T1?", "must_include_any": ["0.5", "50%", "half", "50 percent"]},
+  {"q": "As a fraction of the lease duration, what is the default value of DHCP timer T2?", "must_include_any": ["0.875", "87.5"]},
+  {"q": "When does a DHCP client start renewing its lease?", "must_include_any": ["0.5", "50%", "half", "50 percent"]},
+  {"q": "When does a DHCP client start rebinding?", "must_include_any": ["0.875", "87.5"]},
+  {"q": "What is the minimum value of the BGP Hold Time?", "must_include_any": ["three", "3 second"]},
+  {"q": "How often should BGP KEEPALIVE messages be sent relative to the Hold Time?", "must_include_any": ["one third", "1/3", "third"]},
+  {"q": "Which TCP port does BGP use?", "must_include": ["179"]},
+  {"q": "What is the capital of India?", "refusal_expected": true},
+  {"q": "Who invented the telephone?", "refusal_expected": true}
+]
